@@ -18,6 +18,8 @@ working_directory = TemporaryDirectory()
 
 
 search = DuckDuckGoSearchRun()
+res = search.run("who won ipl 2025")
+print(res)
 wikipedia = WikipediaQueryRun(api_wrapper=WikipediaAPIWrapper())
 
 
